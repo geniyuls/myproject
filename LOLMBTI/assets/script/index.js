@@ -296,6 +296,7 @@ document.getElementById('box-text').addEventListener('click', function () {
         }
         if (i10 === 1 || i10 === 2) {
             question1.innerText = "Q11."; // 내용 설정
+            question2.style.backgroundImage = "url(assets/images/q11.jpg)";
             question1_1.innerText = "우리팀이 짤렸을 때"; // 내용 설정
             button1_1.innerText = '사과 보다는 이유를 듣고 싶다.' // 내용 설정
             button1_2.innerText = '이유는 상관없다. 짤린게 중요하다.'; // 내용 설정
@@ -312,6 +313,7 @@ document.getElementById('box-text').addEventListener('click', function () {
         }
         if (i11 === 1 || i11 === 2) {
             question1.innerText = "Q12."; // 내용 설정
+            question2.style.backgroundImage = "url(assets/images/q12.jpg)";
             question1_1.innerText = "솔랭이 끝나고 나랑 캐미가 잘 맞는 팀원이 친추를 건다면"; // 내용 설정
             button1_1.innerText = '1판의 인연일뿐 받지 않는다.' // 내용 설정
             button1_2.innerText = '친추를 받는다.'; // 내용 설정
